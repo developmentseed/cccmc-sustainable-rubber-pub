@@ -16,4 +16,4 @@ docker build .devcontainer -t cccmc/lambda-gdal
 
 [data-preparation doc](data-pred/)
 
-## [Dashboard development](dashboard/)
+## [Platform development](platform/)
