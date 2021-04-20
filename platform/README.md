@@ -1,4 +1,4 @@
-# cccmc-sustainable-rubber-web
+# CCCMC SUSTAINABLE RUBBER PLATFORM
 
 Front end repo for the [cccmc-sustainable-rubber](https://github.com/developmentseed/cccmc-sustainable-rubber) data visualization.
 
