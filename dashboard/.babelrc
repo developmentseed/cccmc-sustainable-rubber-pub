@@ -1,0 +1,4 @@
+{
+    "presets": [["@babel/preset-react", { "throwIfNamespace": false }]],
+    "plugins": ["babel-plugin-styled-components"]
+  }

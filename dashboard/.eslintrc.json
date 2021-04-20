@@ -1,0 +1,6 @@
+{
+  "extends": ["devseed-standard"],
+  "rules": {
+    "camelcase": "off"
+  }
+}

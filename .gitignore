@@ -1,0 +1,11 @@
+inference/models
+data/
+.vscode
+merged/
+nasa_global_landslide.geojson
+rubber-price-per-kilogram-2010-2020.xlsx
+rubber_comp.tif
+rubber_comp_1.tif
+rubber_lightgbm/
+rubber_risk_work_station/
+**/rubber_least_profitable_price/The_least_rubber_profitable_price_out.ipynb
