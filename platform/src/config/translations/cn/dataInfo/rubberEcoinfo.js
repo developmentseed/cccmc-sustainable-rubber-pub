@@ -10,7 +10,7 @@ export default {
   从任意一点到最近城市的旅行时间（以分钟计算）; 全球从任意一点到最近城市的旅行时间（2015年基准数据）。
 
   ### 数据分析
-  更多数据分析方法请查看[GitHub源码](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/raster_stats.sh)。
+  更多数据分析方法请查看[GitHub源码](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/raster_stats.sh)。
   `,
 
   //  Rubber least profitable price
@@ -43,6 +43,6 @@ export default {
 <img src="/assets/images/Rubber_lpp.png" width="100%"></img>
 
 ### 数据分析
-更多数据分析方法请查看[GitHub源码](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/process_vector.sh/#L206)。
+更多数据分析方法请查看[GitHub源码](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/process_vector.sh/#L206)。
   `
 }

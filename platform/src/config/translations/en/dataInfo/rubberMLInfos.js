@@ -18,7 +18,7 @@ export default {
   Therefore, by compositing the multiple rubber planation from multiple years, we will eliminate the misclassified pixels of rubber planation in Laos, Vietnam and Myanmar.
 
   ### Data analysis
-  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/scripts/rubber_plantations_raster/index.sh).
+  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/scripts/rubber_plantations_raster/index.sh).
   `,
 
   // Natural Rubber Export and Import

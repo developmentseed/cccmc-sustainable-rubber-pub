@@ -7,14 +7,12 @@ import { themeVal } from '../utils/utils'
 
 const baseStyles = css`
   html {
-    overflow-y: hidden;
     height: 100vh;
     font-family: ${themeVal('fonts.body')};
     background-color: ${themeVal('colors.background')};
   }
 
   body {
-    overflow-y: hidden;
     height: 100vh;
     margin: 0;
     padding: 0;

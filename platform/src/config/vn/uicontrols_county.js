@@ -88,7 +88,7 @@ export default [
       {
         id: 'ctrl_agepop_2010_stat_vn',
         label: 'Labor availability',
-        defaultVisibility: false,
+        defaultVisibility: true,
         legend: 'none',
         legendMap: [
           {

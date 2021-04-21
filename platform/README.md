@@ -1,4 +1,4 @@
-# CCCMC SUSTAINABLE RUBBER PLATFORM
+# cccmc-sustainable-rubber-web
 
 Front end repo for the [cccmc-sustainable-rubber](https://github.com/developmentseed/cccmc-sustainable-rubber) data visualization.
 
@@ -30,19 +30,6 @@ Read more documentation in the [docs directory](docs/).
 [MIT](LICENSE.md)
 
 ## Development
-
-- MapBox access token https://docs.mapbox.com/help/how-mapbox-works/access-tokens
-
-```
-export MAPBOX_ACCESS_TOKEN=
-```
-- Formspree url and form id https://help.formspree.io/hc/en-us/articles/360013470814-Submit-forms-with-JavaScript-AJAX-
-
-```
-export FORMSPREE_FORM_ID=""
-```
-
-
 
 ```
 yarn develop

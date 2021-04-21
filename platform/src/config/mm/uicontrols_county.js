@@ -48,7 +48,7 @@ export default [
       {
         id: 'ctrl_social_conflicts_la_layer',
         label: 'Social conflicts',
-        defaultVisibility: true,
+        defaultVisibility: false,
         legend: 'none',
         legendMap: [
           {
@@ -76,7 +76,7 @@ export default [
       {
         id: 'ctrl_agepop_2010_stat_mm',
         label: 'Labor availability',
-        defaultVisibility: false,
+        defaultVisibility: true,
         legend: 'none',
         legendMap: [
           {

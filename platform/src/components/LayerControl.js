@@ -37,7 +37,9 @@ export default function LayerControl ({
         indices.filter((currentIndex) => currentIndex !== toggledIndex)
       )
     } else {
-      setIndices([...indices, toggledIndex].sort())
+      if (indices.length > 0) {
+        setIndices([indices[indices.length - 1], toggledIndex])
+      } else setIndices([toggledIndex])
     }
   }
   const { t } = useTranslation()

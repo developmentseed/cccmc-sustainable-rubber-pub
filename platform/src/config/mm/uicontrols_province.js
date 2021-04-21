@@ -44,7 +44,7 @@ export default [
       {
         id: 'ctrl_social_risk_total_adm1_mm',
         label: 'Social conflicts',
-        defaultVisibility: true,
+        defaultVisibility: false,
         legend: 'none',
         legendMap: [
           {
@@ -137,7 +137,10 @@ export default [
           }
         ],
         layerIds: ['tropical_storm_total_adm1_mm'],
-        chartsIds: ['tropical_storm_stats_year_speed', 'tropical_storm_stats_year'],
+        chartsIds: [
+          'tropical_storm_stats_year_speed',
+          'tropical_storm_stats_year'
+        ],
         info: 'Tropical storm'
       }
     ]

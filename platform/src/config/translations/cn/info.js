@@ -15,5 +15,11 @@ _该平台开发流程图_
 
 平台开发由中国五矿进出口商会和 Development Seed 团队共同开发完成。
 如果您想了解更多平台所使用的风险数据来源，欢迎查阅[天然橡胶和其风险数据层](https://cccmc-sustainable-rubber.surge.sh/datainfo)。平台分析所有源码可在[GitHub Repo](https://github.com/developmentseed/cccmc-sustainable-rubber)上查阅。
+
+## 申明
+
+该平台上所有处理过的数据和源码为MIT开源许可证许可，更多详细信息请查看：https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/master/LICENSE.
+该平台不采集用户相关的任何信息。但是如果您对平台上的地图和数据有任何反馈意见，请使用平台左下角的反馈框写邮件到“rbc@cccmc.org.cn”反馈您的意见。
+该平台上所有数据更新时间到2021年2月。
 `
 }

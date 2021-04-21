@@ -77,7 +77,7 @@ export default [
     description: '',
     info: 'Social risks MM - country',
     // Layer
-    defaultVisibility: true,
+    defaultVisibility: false,
     legend: 'none',
     layerIds: [],
     controls: [
@@ -85,7 +85,7 @@ export default [
       {
         id: 'ctrl_social_conflicts_mm_layer',
         label: 'Social conflicts',
-        defaultVisibility: true,
+        defaultVisibility: false,
         legend: 'none',
         legendMap: [
           {
@@ -113,7 +113,7 @@ export default [
       {
         id: 'ctrl_agepop_2010_stat_mm_layer',
         label: 'Labor availability',
-        defaultVisibility: false,
+        defaultVisibility: true,
         legend: 'none',
         legendMap: [
           {
@@ -188,7 +188,10 @@ export default [
           }
         ],
         layerIds: ['tropical_storm_total_mm'],
-        chartsIds: ['tropical_storm_stats_year_speed', 'tropical_storm_stats_year'],
+        chartsIds: [
+          'tropical_storm_stats_year_speed',
+          'tropical_storm_stats_year'
+        ],
         info: 'Tropical storm'
       }
     ]

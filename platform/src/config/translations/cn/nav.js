@@ -10,9 +10,9 @@ export default {
     '如果您有任何平台反馈意见，请在以下的意见反馈框中写下不多于1500字的反馈意见',
   sendFeedbackPlaceholder: '请在此写下您的意见',
   sendFeedbackSend: '提交',
-  sendFeedbackEmailPlaceholder: 'CN - name@domain.com',
-  sendFeedbackEmail: 'CN - Email',
-  sendFeedbackMessage: 'CN - Message',
-  successMessage: 'CN - Thanks for your submission!',
-  errorMessage: 'CN - Oops! There was a problem submitting your feedbak!'
+  sendFeedbackEmailPlaceholder: '你的邮箱',
+  sendFeedbackEmail: '邮箱',
+  sendFeedbackMessage: '填写反馈信息',
+  successMessage: '感谢您提供平台反馈意见',
+  errorMessage: '您提交的反馈意见不成功！'
 }

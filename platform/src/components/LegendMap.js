@@ -35,12 +35,13 @@ const LegendMapContainer = styled.div`
   max-height: 344px;
 `
 const CustomAccordionPanel = styled(AccordionPanel)`
-  padding: ${themeVal('space.s16')}px 0;
   max-height: ${themeVal('space.s300')}px;
-  overflow-x: auto;
-  overflow-y: auto;
 `
-
+const CustomAccordionWrapPanel = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-height: inherit;
+`
 const FirstLevelHeader = styled.div`
   align-items: center;
   padding: ${themeVal('space.s8')}px ${themeVal('space.s16')}px;
@@ -52,12 +53,21 @@ const FirstLevelHeader = styled.div`
   border-radius: 2px;
 `
 const ControlRotContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   > h4 {
     margin: 0 ${themeVal('space.s16')}px ${themeVal('space.s8')}px
       ${themeVal('space.s16')}px;
     font-size: ${themeVal('fontSizes.small_text')}px;
     font-weight: ${themeVal('fontWeights.heading')};
   }
+`
+const ScrollContainer = styled.div`
+  flex-grow: 1;
+  overflow-y: scroll;
+  max-height: inherit;
+  border-top: 1px solid ${themeVal('colors.accent')};
+  padding: ${themeVal('space.s16')}px 0;
 `
 
 const ControlItemContainer = styled.label`
@@ -101,15 +111,21 @@ function CustomAccordionPanelBody ({ legendMapData }) {
   if (legendMapData.length === 0) {
     return (
       <CustomAccordionPanel>
-        <ControlRotContainer>
-          <h4>{t('explore:noData')}</h4>
-        </ControlRotContainer>
+        <CustomAccordionWrapPanel>
+          <ScrollContainer>
+            <h4>{t('explore:noData')}</h4>
+          </ScrollContainer>
+        </CustomAccordionWrapPanel>
       </CustomAccordionPanel>
     )
   }
   return (
     <CustomAccordionPanel>
-      {legendMapData.map((legend, k) => legendRown(legend, k))}
+      <CustomAccordionWrapPanel>
+        <ScrollContainer>
+          {legendMapData.map((legend, k) => legendRown(legend, k))}
+        </ScrollContainer>
+      </CustomAccordionWrapPanel>
     </CustomAccordionPanel>
   )
 }

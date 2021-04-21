@@ -18,5 +18,12 @@ For more information including:
 - how rubber risk data layers were sourced, processed and served to the platform.
 
 You can visit the platform [data info page](https://cccmc-sustainable-rubber.surge.sh/datainfo). The data processing scripts can be found on the Development Seed's [GitHub repo](https://github.com/developmentseed/cccmc-sustainable-rubber).
+
+## Disclaimer
+
+The platform, processed dataset, and source codes are open-sourced under MIT Licence. For more information please see: https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/master/LICENSE.
+We don't collect any user information and if you have any platform related feedback, please go to bottom left feedback box to write email to "rbc@cccmc.org.cn".
+All data layers were processed before Feb, 2021.
+
 `
 }

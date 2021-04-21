@@ -137,7 +137,7 @@ export default [
       {
         id: 'ctrl_agepop_2010_stat_vn_layer',
         label: 'Labor availability',
-        defaultVisibility: false,
+        defaultVisibility: true,
         legend: 'none',
         legendMap: [
           {
@@ -216,7 +216,10 @@ export default [
           }
         ],
         layerIds: ['tropical_storm_total_vn'],
-        chartsIds: ['tropical_storm_stats_year_speed', 'tropical_storm_stats_year'],
+        chartsIds: [
+          'tropical_storm_stats_year_speed',
+          'tropical_storm_stats_year'
+        ],
         info: 'Tropical storm'
       }
     ]

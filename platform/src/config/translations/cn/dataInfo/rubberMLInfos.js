@@ -14,7 +14,7 @@ export default {
   - 因为卫星影像像素原因，机器学习算法在解译像素信息是否含有橡胶树时可能产生误差，因此通过图像合成，可达到提高最终橡胶分布图层准确率的作用;
 
   ### 数据分析
-  更多数据分析方法请查看[GitHub源码](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/scripts/rubber_plantations_raster/index.sh)。
+  更多数据分析方法请查看[GitHub源码](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/scripts/rubber_plantations_raster/index.sh)。
   `,
 
   // Natural Rubber Export and Import

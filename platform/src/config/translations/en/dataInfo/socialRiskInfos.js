@@ -11,7 +11,7 @@ export default {
   ACLED collects real-time data on the locations, dates, actors, fatalities, and types of all reported political violence and protest events across Africa, the Middle East, Latin America & the Caribbean, East Asia, South Asia, Southeast Asia, Central Asia & the Caucasus, Europe, and the United States of America.
 
   ### Data analysis
-  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/process_vector.sh/#L80-L90).
+  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/process_vector.sh/#L80-L90).
   `,
 
   // Labor availability
@@ -27,7 +27,7 @@ export default {
   surface. From those, We are getting the estimated population ages from 15-59 for men and women.
   
   ### Data analysis
-  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/process_vector.sh/#L165-L178).
+  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/process_vector.sh/#L165-L178).
   `,
 
   // Corruption perception index
@@ -55,6 +55,6 @@ export default {
   CGLS is a component of the Land Monitoring Core Service (LMCS) of Copernicus, the European flagship programme on Earth Observation. The Global Land Service systematically produces a series of qualified bio-geophysical products on the status and evolution of the land surface, at global scale and at mid to low spatial resolution, complemented by the constitution of long term time series. The products are used to monitor the vegetation, the water cycle, the energy budget and the terrestrial cryosphere. 
 
   ### Data analysis
-  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber/blob/master/data-prep/raster_stats.sh).
+  For more data analysis methods, please check [GitHub source code](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/blob/main/data-prep/raster_stats.sh).
   `
 }
