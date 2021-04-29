@@ -17,7 +17,7 @@ For more information including:
 - how rubber plantations were mapped using machine learning;
 - how rubber risk data layers were sourced, processed, and served to the platform.
 
-You can visit the platform [data info page](https://cccmc-sustainable-rubber.surge.sh/datainfo). The data processing scripts can be found on the Development Seed's [GitHub repo](https://github.com/developmentseed/cccmc-sustainable-rubber).
+You can visit the platform [data info page](https://cccmc-sustainable-rubber.surge.sh/datainfo). The data processing scripts can be found on the Development Seed's [GitHub repo](https://github.com/developmentseed/cccmc-sustainable-rubber-pub/tree/main/data-prep).
 
 ## Disclaimer
 
