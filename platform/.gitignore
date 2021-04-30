@@ -9,4 +9,4 @@ bundle.js
 bundle.css
 yarn.lock
 .cache
-dist
+!dist
